@@ -46,7 +46,7 @@ inputs = {
   asg_min_size = 1
 
   vpc_id = "vpc-bbf694d1"
-  availability_zones = ["eu-central-1a", "eu-central-1b", "eu-central-1c"]
+  availability_zones = ["eu-west-1a", "eu-west-1b", "eu-west-1c"]
   key_name = "course-key"
   security_groups = [ dependency.security_group.outputs.security_group_id ]
   device_enable_encryption = true

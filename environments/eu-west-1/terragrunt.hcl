@@ -8,8 +8,8 @@ remote_state {
 
     config = {
         bucket = "courses-terraform-terragrunt-states-bucket"
-        key = "eu-central-1/${path_relative_to_include()}/terraform.tfvars"
-        region = "eu-central-1"
+        key = "eu-west-1/${path_relative_to_include()}/terraform.tfvars"
+        region = "eu-west-1"
         encrypt = true
         dynamodb_table = "courses-lock-table"
         profile = "default"
@@ -31,7 +31,7 @@ generate "provider" {
     contents = <<EOF
         provider "aws" {
             profile = "default"
-            region = "eu-central-1"
+            region = "eu-west-1"
         }
     EOF
 }
