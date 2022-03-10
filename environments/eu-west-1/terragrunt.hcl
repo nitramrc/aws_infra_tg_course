@@ -7,7 +7,7 @@ remote_state {
     }
 
     config = {
-        bucket = "courses-terraform-terragrunt-states-bucket"
+        bucket = "courses-terraform-terragrunt-states-bucket-1q2s3d4r5t"
         key = "eu-west-1/${path_relative_to_include()}/terraform.tfvars"
         region = "eu-west-1"
         encrypt = true

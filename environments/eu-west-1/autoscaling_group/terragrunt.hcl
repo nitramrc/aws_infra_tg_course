@@ -45,7 +45,7 @@ inputs = {
   asg_max_size = 1
   asg_min_size = 1
 
-  vpc_id = "vpc-bbf694d1"
+  vpc_id = "vpc-0f5c8373a8b7cd1f4"
   availability_zones = ["eu-west-1a", "eu-west-1b", "eu-west-1c"]
   key_name = "course-key"
   security_groups = [ dependency.security_group.outputs.security_group_id ]
