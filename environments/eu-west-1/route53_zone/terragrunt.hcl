@@ -7,5 +7,5 @@ terraform {
 }
 
 inputs = {
-    domain_name = "awscourses.link"
+    domain_name = "tg.overbinary.org"
 }
