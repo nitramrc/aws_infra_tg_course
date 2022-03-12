@@ -24,12 +24,12 @@ dependency "certificate_arn" {
 
 
 inputs = {
-    name = "course-alb"
+    name = "mhorejsek-alb"
     security_groups = [ dependency.security_group_id.outputs.security_group_id ]
     subnets = [
-        "subnet-745acd38",
-        "subnet-db4316b1",
-        "subnet-b99b1bc5"
+        "subnet-0b233b0712175c05b",
+        "subnet-084624256b1d16f7e",
+        "subnet-0ff1ba06099209445"
     ]
     certificate_arn = dependency.certificate_arn.outputs.certificate_arn
 }
