@@ -20,8 +20,13 @@ variable lt_description {
     default = "Default description for Launch Template"
 }
 
-variable availability_zones {
-  description = "List of avilability zones of ASG"
+# variable availability_zones {
+#   description = "List of avilability zones of ASG"
+#   type = list
+# }
+
+variable vpc_zone_identifier {
+  description = "List of vpc_zone_identifier of ASG"
   type = list
 }
 
@@ -73,7 +78,8 @@ variable key_name {
 variable security_groups {
   description = "List of security groups to ASG"
   type = list
-  default = []
+  # default = []
+  default = ["sg-0dbe285e68e4e567c"]
 }
 
 variable associate_public_ip_address {
