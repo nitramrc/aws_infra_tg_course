@@ -20,8 +20,8 @@ inputs = {
             "Effect": "Allow",
             "Principal": {
                 "AWS": [
-                    "arn:aws:iam::142725718225:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
-                    "arn:aws:iam::142725718225:root"
+                    "arn:aws:iam::101536522709:role/aws-service-role/autoscaling.amazonaws.com/AWSServiceRoleForAutoScaling",
+                    "arn:aws:iam::101536522709:root"
                 ]
             },
             "Action": "kms:*",

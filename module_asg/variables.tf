@@ -57,7 +57,7 @@ variable ebs_optimized {
 variable image_id {
   description = "ID of AMI image"
   type = string
-  default = "ami-05f7491af5eef733a"
+  default = "ami-0ef38d2cfb7fd2d03"
 }
 
 variable instance_type {
