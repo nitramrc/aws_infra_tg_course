@@ -45,9 +45,9 @@ inputs = {
   asg_max_size = 1
   asg_min_size = 1
 
-  vpc_id = "vpc-0f5c8373a8b7cd1f4"
-  # availability_zones = ["eu-west-1a", "eu-west-1b", "eu-west-1c"]
-  vpc_zone_identifier = ["subnet-0b233b0712175c05b", "subnet-084624256b1d16f7e", "subnet-0ff1ba06099209445"]
+  vpc_id = "vpc-25e7515c"
+  availability_zones = ["eu-west-1a", "eu-west-1b", "eu-west-1c"]
+  # vpc_zone_identifier = ["subnet-0b233b0712175c05b", "subnet-084624256b1d16f7e", "subnet-0ff1ba06099209445"]
   key_name = "course-key"
   security_groups = [ dependency.security_group.outputs.security_group_id ]
   device_enable_encryption = true

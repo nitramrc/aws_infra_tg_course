@@ -27,9 +27,9 @@ inputs = {
     name = "mhorejsek-alb"
     security_groups = [ dependency.security_group_id.outputs.security_group_id ]
     subnets = [
-        "subnet-0b233b0712175c05b",
-        "subnet-084624256b1d16f7e",
-        "subnet-0ff1ba06099209445"
+        "subnet-0a668673",
+        "subnet-2b042971",
+        "subnet-91d023da"
     ]
     certificate_arn = dependency.certificate_arn.outputs.certificate_arn
 }

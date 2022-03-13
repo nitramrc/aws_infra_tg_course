@@ -8,7 +8,7 @@ terraform {
 
 inputs = {
     security_group_name = "ec2_sg"
-    vpc_id = "vpc-0f5c8373a8b7cd1f4"
+    vpc_id = "vpc-25e7515c"
 
     security_group_rules       = {
         rule01 = {
